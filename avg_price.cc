@@ -13,7 +13,7 @@ int main()
     if(read(cin ,total))
     {
         Sales_data trans;
-        while(raed(cin, trans))
+        while(read(cin, trans))
         {
             if(total.isbn() == trans.isbn())
             {

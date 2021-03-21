@@ -8,7 +8,7 @@
 class Sales_data{
     friend Sales_data add(const Sales_data&, const Sales_data&);
     friend std::ostream &print(std::ostream& , const Sales_data&);
-    friend std::iostream &read(std::istream& Sales_data&);
+    friend std::istream &read(std::istream&, Sales_data&);
 public :
     //oonstructors
     Sales_data() = default; //构造函数--默认
@@ -18,7 +18,7 @@ public :
     Sales_data(std::istream &);
 
     //operations on Sales_data objects
-    std::string isbn()const {return bookNo};
+    std::string isbn()const {return bookNo;};
     Sales_data& combine(const Sales_data&);
     double avg_price() const;
     
@@ -28,11 +28,11 @@ private :
     unsigned units_sold = 0;
     double revenue = 0.0;
 
-}
+};
 
 Sales_data add(const Sales_data&, const Sales_data&);
-std::ostream &print(std::ostream, const Sales_data&);
-std::istream &read(std::istream, Sales_data&);
+std::ostream &print(std::ostream&, const Sales_data&);
+std::istream &read(std::istream&, Sales_data&);
 
 
 inline bool compareIsbn(const Sales_data &lhs, const Sales_data &rhs)

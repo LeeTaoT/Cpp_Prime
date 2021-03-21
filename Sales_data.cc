@@ -30,7 +30,7 @@ Sales_data add(const Sales_data &rhs, const Sales_data &lhs)
 
 
 
-istream read(istream &is , Sales_data &item)
+istream &read(istream &is , Sales_data &item)
 {
     double price = 0;
     is >> item.bookNo >> item.units_sold >> price;
