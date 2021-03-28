@@ -1,7 +1,7 @@
 #include <string>
 using std::string;
 
-#include "Account.h"
+#include "../include/Account.h"
 
 const string Account::accountType("Savings Account");
 double Account::interestRate = initRate();
