@@ -1,4 +1,5 @@
 #include <string>
+
 #include <iostream>
 
 class Screen {
@@ -28,6 +29,7 @@ public:
                 { do_display(os); return *this;}
 
 
+
 private:
     //function to do the work of displaying a Screen
     void do_display(std::ostream &os) const {os << contents;}
@@ -35,4 +37,38 @@ private:
     pos height = 0 , width = 0;
     std::string contents;
 
+};
+
+Screen &Screen::clear(char c)
+{
+    contents = std::string(height * width ,c);
+    return *this;
+}
+
+inline 
+Screen &Screen::move(pos r, pos c )
+{
+    pos row = r * width;
+    cursor = row + c;
+    return *this;
+}
+
+
+char Screen::get(pos r , pos c) const 
+{
+    pos row = r * width;
+    return contents[row + c];
+
+}
+
+inline Screen &Screen::set(char c)
+{
+    contents[cursor] = c;
+    return *this;
+}
+
+inline Screen &Screen::set(pos r , pos col , char ch)
+{
+    contents[r * width + col] = ch;
+    return *this;
 }
