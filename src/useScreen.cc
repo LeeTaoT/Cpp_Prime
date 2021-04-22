@@ -32,6 +32,7 @@ int main()
 	myScreen.clear('Z').display(cout); cout << endl;
 
 	// if move returns Screen not Screen&
+	
 	Screen temp = myScreen.move(4,0); // the return value would be copied
 	temp.set('#'); // the contents inside myScreen would be unchanged
 	myScreen.display(cout);
