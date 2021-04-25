@@ -1,7 +1,7 @@
 ROOT=..
 # executable files for this directory
 OBJECTS = add_item.bin avg_price.bin \
-		  useAccount.bin useScreen.bin \
+		  useAccount.bin useScreen.bin  buf.bin\
 #		  useDebug.bin 
 
 # OBJECTS := $(patsubst %.cc , %.bin, $(wildcard *.cc))
