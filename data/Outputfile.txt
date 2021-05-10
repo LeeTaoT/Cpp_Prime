@@ -6,3 +6,10 @@ ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZ#ZZ
 ZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZ
+=============================================
+ivec: size: 0 capacity: 0
+ivec: size: 24 capacity: 32
+ivec: size: 24 capacity: 50
+ivec: size: 50 capacity: 50
+ivec: size: 51 capacity: 100
+ivec: size: 51 capacity: 51
