@@ -13,3 +13,9 @@ ivec: size: 24 capacity: 50
 ivec: size: 50 capacity: 50
 ivec: size: 51 capacity: 100
 ivec: size: 51 capacity: 51
+find_ops.cc=============================================================
+found number at index: 1 element is 2
+found number at index: 1 element is 2
+found number at index: 3 element is 2
+find returned: 1  rfind returned: 4
+first not returned: 5
