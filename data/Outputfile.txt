@@ -19,3 +19,8 @@ found number at index: 1 element is 2
 found number at index: 3 element is 2
 find returned: 1  rfind returned: 4
 first not returned: 5
+refreshlter=================================================
+0123456789
+1133557799
+stack.cc===================================================
+9876543210
