@@ -24,3 +24,14 @@ refreshlter=================================================
 1133557799
 stack.cc===================================================
 9876543210
+str_assignOps.cc==============================================================
+insert iterators version:          some other stringsome string
+insert string at given poostin:    some other stringsome string
+insert iterators version:          me other stringsome string
+a!!!!!
+a
+Stately
+Stately. plump Buck
+C++ Primer 4th Ed.   C++ Primer 4th Ed.
+C++ Primer 5th Ed.   C++ Primer 5th Ed.
+C++ Primer Fifth Ed. C++ Primer Fifth Ed.
