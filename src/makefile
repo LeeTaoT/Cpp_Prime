@@ -4,7 +4,8 @@ OBJECTS = add_item.bin avg_price.bin \
 		  useAccount.bin useScreen.bin  buf.bin clearIO.bin fileIO.bin sstream.bin\
 		  capacity.bin erase1.bin  erase2.bin find_ops.bin find-str.bin refreshlter.bin stack.bin\
 		  str_assignOps.bin substr.bin  absint.bin accum.bin elimDups.bin equal.bin\
-		  equiv-istream-iter.bin  inserters.bin\
+		  equiv-istream-iter.bin  inserters.bin lambda.bin ostreamIter2.bin rcomma.bin\
+
 #		  useDebug.bin 
 
 # OBJECTS := $(patsubst %.cc , %.bin, $(wildcard *.cc))
