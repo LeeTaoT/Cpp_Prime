@@ -4,7 +4,9 @@ OBJECTS = add_item.bin avg_price.bin \
 		  useAccount.bin useScreen.bin  buf.bin clearIO.bin fileIO.bin sstream.bin\
 		  capacity.bin erase1.bin  erase2.bin find_ops.bin find-str.bin refreshlter.bin stack.bin\
 		  str_assignOps.bin substr.bin  absint.bin accum.bin elimDups.bin equal.bin\
-		  equiv-istream-iter.bin  inserters.bin lambda.bin ostreamIter2.bin rcomma.bin\
+		  equiv-istream-iter.bin  inserters.bin lambda.bin ostreamIter2.bin rcomma.bin rev-iters.bin\
+		  reverse-iter.bin reverse.bin sortSl.bin use_find.bin use-istream-iter.bin\
+		  newcout-size.bin \
 
 #		  useDebug.bin 
 
