@@ -9,7 +9,8 @@ all : $(OBJECTS)
 	$(CC) $(CCFLAGS) $(LOCFLAGS) -c $< -o $@
 
 %.bin : %.o
-	$(CC) $(CCFLAGS) $(LOCFLAGS) $< -o $(BINPATH)/$@
+	$(CC) $(CCFLAGS) $(LOCFLAGS) $< -o $@
+	cp $@ $(BINPATH)/
 
-clean:
-	rm *.o 
+clean :
+	rm *.bin *.o
