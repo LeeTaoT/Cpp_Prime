@@ -1,0 +1,25 @@
+#include <string>
+using std::string;
+
+#include <fstream>
+using std::ifstream;
+
+#include <iostream>
+using std::cin; using std::cout; using std::cerr;
+using std::endl;
+
+#include <cstdlib>
+
+#include "../../include/make_plural.h"
+
+
+void runQueries(ifstream &infile)
+{
+    
+}
+
+
+int main(int argc , char **argv)
+{
+
+}
